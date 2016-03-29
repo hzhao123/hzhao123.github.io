@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/hzh_woman.css"/>
+    <link rel="stylesheet" href="css/wq.css"/>
+    <link rel="stylesheet" href="css/cxm.css"/>
+    <link rel="stylesheet" href="css/tb-css.bottm.css"/>
+
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/wq-js.js"></script>
+    <script src="js/animate.js"></script>
+    <!--<script src="js/h1.js"></script>-->
+    <script src="js/tb_bottom_js.js"></script>
+
+    <script>
+        $(function(){
+            var sx=0
+            $('.cxm_bnner_right1').click(function(e) {
+                sx++;
+                if(sx > 2) {
+                    sx = 0;
+                }
+                //都有谁需要跟着这个顺序走。
+                $('.cxm_bnner_right .cxm_bnner_ul').stop().animate({left:sx*-985},500);
+            });
+
+            $('.cxm_bnner_left').click(function(e) {
+                sx--;
+                if(sx < 0) {
+                    sx = 2;
+                }
+                //都有谁需要跟着这个顺序走。
+                $('.cxm_bnner_right .cxm_bnner_ul').stop().animate({left:sx*-985},500);
+
+            })
+
+            $(".cxm_cloth_left_buttom > a").mouseenter(function () {
+                $(this).css("opacity",0.5).siblings().css("opacity",1);
+            })
+
+            $(".cxm_cloth_left_buttom > a").mouseleave(function () {
+                $("a").css("opacity",1);
+            }).
+
+				
+        });
+    </script>
+
+</head>
+<body>
+<div class="tb"></div>
+<div class="head02">
+    <div class="w">
+        <div class="logo">
+            <div><a href="http://www.yohobuy.com" class="yoho">YOHO!有货</a>;
+                <!--<div class="yincang">-->
+                <!--<ul>-->
+                <!--<li><a href="http://www.yohobuy.com">YOHO!</a></li>-->
+                <!--<li><a href="http://www.yohobuy.com">YOHO!BOYS</a></li>-->
+                <!--<li><a href="http://www.yohobuy.com">YOHO!GIRLS</a></li>-->
+                <!--<li><a href="http://www.yohobuy.com">YOHO!SHOW</a></li>-->
+                <!--<li><a href="http://www.yohobuy.com">YO'HOOD</a></li>-->
+
+            </div>           <!--</ul>-->
+        </div>
+
+        <div class=sousuol>
+            <div class="ous"><span>hi~</span><a href="http//:www.yohobuy.con" class="ouss">[登录]</a><a
+                    href="www.yohobuy.con"
+                    class="ouss">[免费注册]</a>
+            </div>
+            <div class="other">
+                <span><a href="http://www.yohobuy.com">MY有货</a></span>
+                <div class="lis">
+                    <li><a href="http//:www.yohobuy.com"><img src="单.jpg" alt=""/> 我的订单</a></li>
+                    <li><a href="http//:www.yohobuy.com"><img src="小心.jpg" alt=""/> 我的收藏</a></li>
+                    <li><a href="http//:www.yohobuy.com"><img src="消.jpg" alt=""/> 消息</a></li>
+                    <li><a href="http//:www.yohobuy.com"><img src="机.jpg" alt=""/> 手机版</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="w head03">
+    <!--<img src="搜索.jpg" alt=""/>-->
+
+    <div class="search-car">
+        <a href="#">我的购物车</a>
+        <span class="icon1"></span>
+        <span class="icon2"></span>
+        <span class="icon3">0</span>
+    </div>
+    <div class="search-input">
+        <input type="text" value="vans"/>
+        <button>搜索</button>
+    </div>
+    <div class="ct"></div>
+    <div class="box">
+        <div class="Top">
+            <span class="current"><a href="index_man.html">男生</a></span>
+            <span class="mm"><a href="">女生</a></span>
+            <span><a href="">潮童</a></span>
+            <span><a href="">创意生活</a></span>
+        </div>
+
+    </div>
+</div>
+<div class="bd">
+    <ul class="w">
+        <li class="current">新品到货</li>
+        <li>品牌一览</li>
+        <li>服饰</li>
+        <li>鞋履</li>
+        <li>包袋</li>
+        <li>配饰*其他</li>
+        <li>逛</li>
+        <li>SALE</li>
+    </ul>
+</div>
+<!--girls 页面内容头部 开始-->
+<div class="girls w clearfix">
+    <div class="girls-wq-left fl">
+        <a href="#"><img src="img/wq-l-new arrive.jpg" alt=""/></a>
+        <a href="#"><img src="img/wq-l-coats.jpg" alt=""/></a>
+        <a href="#"><img src="img/wq-l-yohobi.jpg" alt=""/></a>
+    </div>
+    <div class="girls-wq-middle fl">
+        <div class="girls-wq-middle-pics">
+            <ul>
+                <li><a href="#"><img src="img/wq-1.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-2.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-3.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-4.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-5.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-6.jpg" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-7.png" alt=""/></a></li>
+                <li><a href="#"><img src="img/wq-8.png" alt=""/></a></li>
+            </ul>
+        </div>
+        <div class="girls-wq-middle-icons">
+            <span class="wq-middle-icons-prev" id="wq-icons-prev"> < </span>
+            <!-- <ul class="wq-middle-icons-dots" id="wq_icons-dots-whole">
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis wq-dots-selected"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+                 &lt;!&ndash;&lt;!&ndash;<li class="wq-dots-lis"></li>&ndash;&gt;&ndash;&gt;
+             </ul>-->
+            <ol>
+                <li class="girls-wq-middle-alter">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+            </ol>
+            <span class="wq-middle-icons-next" id="wq-icons-next"> > </span>
+        </div>
+    </div>
+    <div class="girls-wq-right fr ">
+        <a href="#"><img src="img/wq-r-top.jpg" alt=""/></a>
+        <a href="#"><img src="img/wq-r-special%20price.jpg" alt=""/></a>
+    </div>
+</div>
+<!--girls 页面内容头部 结束-->
+<div class="cxm_bx">
+    <!--优选品牌-->
+    <div class="cxm_yx">
+        <div class="cxm_yx_sp">
+            优选品牌 BRAND
+        </div>
+    </div>
+    <div class="cxm_bnner clearfix">
+        <!-- 轮播图-->
+        <span class = "cxm_bnner_left"id="bnnerl"><img src="img/cxm-32.png" alt=""/></span>
+        <span class = "cxm_bnner_right1"id="bnnerr"><img src="img/cxm-33.png" alt=""/></span>
+        <div class="cxm_bnner_right clearfix ">
+            <ul class = "cxm_bnner_ul" id="cxm_bnner_ul1">
+                <li><a href="#"><img src="img/cxm-1.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-2.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-3.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-4.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-5.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-6.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-7.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-8.jpg"></a></li>
+                <li><a href="#"><img src="img/cxm-9.jpg"></a></li>
+            </ul>
+        </div>
+        <!-- 轮播图-->
+
+    </div>
+    <div class="cxm_bnner_list clearfix">
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-10.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-11.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-12.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-13.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-14.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-15.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-16.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-17.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-18.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-19.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"><img src="img/cxm-20.jpg" alt=""/></a></div>
+        <div class="cxm_bnner_list_item"><a href="#"class="cxm_bnner_list_more">MORE &gt</a></div>
+    </div>
+    <!--潮流上装 -->
+    <div class="cxm_cloth clearfix">
+        <div class="cxm_cloth_top">
+            潮流上装
+        </div>
+        <ul class = "cxm_cloth_ul">
+            <li class = "cxm_cloth_li">MORE</li>
+        </ul>
+        <div class="cxm_cloth_buttom">
+            <div class="cxm_cloth_left">
+                <div class="cxm_cloth_left_top">
+                    <a  href="#"><img class = "lazy"  src="img/cxm-29.jpg"/></a>
+                    <a href="#"><img class = "lazy"  src="img/cxm-30.jpg"/></a>
+                    <a href="#"><img class = "lazy"  src="img/cxm-31.jpg"/></a>
+                </div>
+                <div class="cxm_cloth_left_buttom  clearfix " id="jscxma">
+                    <a class = "cxm_cloth_a2"href="#">御寒必备</a>
+                    <a class = "cxm_cloth_a2"href="#">夹克</a>
+                    <a class = "cxm_cloth_a2"href="#">连帽卫衣</a>
+                    <a class = "cxm_cloth_a2"href="#">大衣/风衣</a>
+                    <a class = "cxm_cloth_a2"href="#">防风外套</a>
+                    <a class = "cxm_cloth_a2"href="#">毛衣/针织</a>
+                    <a class = "cxm_cloth_a2"href="#">棉衣</a>
+                    <a class = "cxm_cloth_a2"href="#">T恤</a>
+                    <a class = "cxm_cloth_a2"href="#">衬衫</a>
+                    <a class = "cxm_cloth_a2"href="#">趣味街头</a>
+                    <a class = "cxm_cloth_a2"href="#">复古学院头</a>
+                    <a class = "cxm_cloth_a2"href="#">MORE</a>
+                </div>
+            </div>
+            <div class="cxm_cloth_right">
+                <ul class = "clearfix">
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-21.jpg"/></a></li>
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-22.jpg"/></a></li>
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-23.jpg"/></a></li>
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-25.jpg"/></a></li>
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-26.jpg"/></a></li>
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-27.jpg"/></a></li>
+                    <li><a href="#"><img  class = "cxm_rignt_img" src="img/cxm-28.jpg"/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--广告部分start-->
+<div class="w tb-ad">
+    <div class="tb-ad-1"><a href="javascript:;"><img src="img/tb-ad1.gif" alt=""/></a></div>
+    <div class="tb-ad-2"><a href="javascript:;"><img src="img/tb-ad2.png" alt=""/></a></div>
+</div>
+<!--广告部分end-->
+
+<!--service部分start-->
+<div class="tb-service">
+    <div class="w tb-service-con">
+        <!--service部分 左 start-->
+        <div class="tb-service-con-ser">
+            <div class="tb-service-con-ser-top">
+                <div class="tb-text-line"></div>
+                <div class="tb-service-txt">
+                    <span>有货SERVICES</span>
+                </div>
+                <div class="tb-service-erweima">
+                    <div class="tb-erweima">
+                        <a href="javascript:;"><img src="img/tb-erweimaYOHO.png" alt=""/></a>
+                        <div>YOHO!有货</div>
+                    </div>
+                    <div class="tb-erweima tb-erweima-mid">
+                        <a href="javascript:;"><img src="img/tb-erweimaweixin.png" alt=""/></a>
+                        <div>微信</div>
+                    </div>
+                    <div class="tb-erweima">
+                        <a href="javascript:;"><img src="img/tb-erweimaweibo.png" alt=""/></a>
+                        <div>微博</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tb-service-con-ser-bottom">
+                <div>●</div>
+            </div>
+        </div>
+        <!--service部分 左 end-->
+
+        <!--service部分 中 start-->
+        <div class="tb-service-con-advice">
+            <div class="tb-service-con-advice-top">
+                <div class="tb-text-line"></div>
+                <div class="tb-service-txt">
+                    <span class="advice">意见反馈</span>
+                </div>
+                <ul id="tb_mid_ul">
+                    <li>
+                        <div>您喜欢有货的新版吗？</div>
+                        <form action="#">
+                            <p><input type="radio" name="satisfied" value="1"/> 非常喜欢</p>
+                            <p><input type="radio" name="satisfied" value="2"/> 喜欢</p>
+                            <p><input type="radio" name="satisfied" value="3"/> 一般般</p>
+                            <p><input type="radio" name="satisfied" value="4"/> 不喜欢</p>
+                            <p class="tb-lastP"><input type="radio" name="satisfied" value="5"/> 非常不喜欢</p>
+                            <div><input type="submit" value="提交" class="tb-submit"/></div>
+                        </form>
+                    </li>
+                    <li>
+                        <div>您可以方便的找到想查看的内容吗？</div>
+                        <form action="#">
+                            <p><input type="radio" name="satisfied" value="1"/> 非常方便</p>
+                            <p><input type="radio" name="satisfied" value="2"/> 方便</p>
+                            <p><input type="radio" name="satisfied" value="3"/> 一般般</p>
+                            <p><input type="radio" name="satisfied" value="4"/> 不方便</p>
+                            <p class="tb-lastP"><input type="radio" name="satisfied" value="5"/> 非常不方便</p>
+                            <div><input type="submit" value="提交" class="tb-submit"/></div>
+                        </form>
+                    </li>
+                    <li>
+                        <div>您对新版本有哪些意见和建议？</div>
+                        <form action="#">
+                            <textarea name="" id="" cols="" rows=""></textarea>
+                            <div><input type="submit" value="提交" class="tb-submit"/></div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <div class="tb-service-con-advice-bottom">
+                <div class="tb-mid-bottom" id="tb_mid_bottom">
+                    <span class="tb-mid-botton-dian">●</span>
+                    <span class="tb-mid-botton-dian">○</span>
+                    <span class="tb-mid-botton-dian">○</span>
+                </div>
+            </div>
+        </div>
+        <!--service部分 中 end-->
+
+        <!--service部分 右 start-->
+        <div class="tb-service-con-more">
+            <div class="tb-service-con-more-top">
+                <div class="tb-text-line"></div>
+                <div class="tb-service-txt">
+                    <span class="more">更多 YOHO!产品</span>
+                </div>
+                <div class="tb-service-erweima">
+                    <a href="javascript:;"><img src="img/tb-more1.jpg" alt=""/></a>
+                    <a href="javascript:;" class="tb-more-mid"><img src="img/tb-more2.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/tb-more3.jpg" alt=""/></a>
+                </div>
+            </div>
+            <div class="tb-service-con-more-bottom">
+                <div class="tb-service-con-ser-bottom">
+                    <div>●</div>
+                </div>
+            </div>
+        </div>
+        <!--service部分 右 end-->
+    </div>
+</div>
+<!--service部分end-->
+
+<!--bottom部分start-->
+<div class="tb-bottom">
+    <!--bottom部分top start-->
+    <div class="w tb-bottom-top">
+        <div class="tb-zheng">
+            <img src="img/tb-real.png" alt=""/><span class="tb-colorRed">100%</span><span class="tb-bigFont">品牌授权正品</span>
+        </div>
+        <div class="tb-car">
+            <img src="img/tb-car.png" alt=""/><span class="tb-colorRed">7天</span><span class="tb-bigFont">无理由退款</span>
+        </div>
+        <div class="tb-tel">
+            <img src="img/tb-tel.png" alt=""/><span class="tb-bigFont">客服电话 : </span><span class="tb-colorRed">400-889-9646</span>
+            &nbsp;<span class="tb-smallFont"> 08:00-22:30(周一至周日) </span>&nbsp;<a href="javascript:;"><span class="tb-colorRed">在线客服</span></a>
+        </div>
+        <div class="tb-mail">
+            <input type="text" value="订阅我们的邮件" id="tb_mail_text"/>
+            <a href="javascript:;"><img src="img/tb-post.gif" alt=""/></a>
+        </div>
+    </div>
+    <!--bottom部分 top end-->
+    <!--bottom部分 mid start-->
+    <div class="w tb-bottom-mid">
+        <dl>
+            <dt>新手指南</dt>
+            <dd><a href="javascript:;">注册登录</a></dd>
+            <dd><a href="javascript:;">选购商品</a></dd>
+            <dd><a href="javascript:;">订单支付</a></dd>
+            <dd><a href="javascript:;">收货退款</a></dd>
+        </dl>
+        <dl>
+            <dt>会员中心</dt>
+            <dd><a href="javascript:;">YOHO币</a></dd>
+            <dd><a href="javascript:;">会员制度</a></dd>
+            <dd><a href="javascript:;">账户管理</a></dd>
+            <dd><a href="javascript:;">密码管理</a></dd>
+        </dl>
+        <dl>
+            <dt>购物指南</dt>
+            <dd><a href="javascript:;">全球购专区</a></dd>
+            <dd><a href="javascript:;">尺码选择</a></dd>
+            <dd><a href="javascript:;">发票</a></dd>
+            <dd><a href="javascript:;">商品咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>支付方式</dt>
+            <dd><a href="javascript:;">在线支付</a></dd>
+            <dd><a href="javascript:;">货到付款</a></dd>
+            <dd><a href="javascript:;">优惠券</a></dd>
+            <dd><a href="javascript:;">YOHO币支付</a></dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd><a href="javascript:;">配送时间</a></dd>
+            <dd><a href="javascript:;">配送范围</a></dd>
+            <dd><a href="javascript:;">顺丰速运</a></dd>
+            <dd><a href="javascript:;">商品验收与签收</a></dd>
+        </dl>
+        <dl>
+            <dt>售后服务</dt>
+            <dd><a href="javascript:;">退换货政策</a></dd>
+            <dd><a href="javascript:;">退换货流程</a></dd>
+            <dd><a href="javascript:;">退款方式与时效</a></dd>
+            <dd><a href="javascript:;">投诉与建议</a></dd>
+        </dl>
+        <dl class="tb-lastDl">
+            <dt class="tb-lastDt">APP常见问题</dt>
+            <dd class="tb-lastDd"><a href="javascript:;">IPhone版</a></dd>
+            <dd class="tb-lastDd"><a href="javascript:;">Android版</a></dd>
+            <dd class="tb-lastDd"><a href="javascript:;">wap版</a></dd>
+            <dd class="tb-lastDd"><a href="javascript:;">IPAD版</a></dd>
+        </dl>
+    </div>
+    <!--bottom部分 mid end-->
+
+    <!--bottom部分 bottom start-->
+    <div class="w tb-bottom-bottom">
+        <div class="tb-bottom-pic">
+            <a href="javascript:;"><img src="img/tb-icon1.png" alt=""/></a>
+            <a href="javascript:;"><img src="img/tb-icon2.png" alt=""/></a>
+        </div>
+        <div class="tb-bottom-content">
+            <div class="tb-bottom-content-top">
+                <a href="javascript:;">返回首页</a><span>|</span>
+                <a href="javascript:;">YOHO ! 有货</a><span>|</span>
+                <a href="javascript:;">新力传媒</a><span>|</span>
+                <a href="javascript:;">联系我们</a><span>|</span>
+                <a href="javascript:;">商家入驻</a><span>|</span>
+                <a href="javascript:;">隐私条款</a><span>|</span>
+                <a href="javascript:;">友情链接</a>
+            </div>
+            <div class="tb-bottom-content-bottom">
+                <div>CopyRight © 2007-2016 南京新与力文化传播有限公司 苏ICP备09011225号 NewPower Co. 版权所有 经营许可证编号：苏B2-20120395</div>
+            </div>
+        </div>
+    </div>
+    <!--bottom部分 bottom end-->
+
+    <!--bottom部分 小箭头 start-->
+    <div class="tb-arrow" id="tb_arrow">
+        <div class="tb-showArrow">
+            ◇
+        </div>
+    </div>
+
+    <!--bottom部分 小箭头 end-->
+
+</div>
+<!--bottom部分end-->
+</body>
+
+</body>
+</html>

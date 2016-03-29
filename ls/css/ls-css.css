@@ -1,0 +1,134 @@
+.ls-nav {
+    padding-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 3px solid #ccc;
+}
+
+.ls_right {
+    width: 943px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.ls-tiaojian-one {
+    height: 50px;
+    padding-left: 15px;
+    background-color: #ccc;
+    line-height: 50px;
+    color: black;
+}
+
+.ls-tiaojian-one input {
+    width: 780px;
+    height: 30px;
+}
+
+.ls-tiaojian-two {
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 70px;
+}
+
+.ls-tiaojian-two li {
+    display: inline-block;
+    width: 160px;
+    height: 30px;
+}
+
+.ls-tiaojian-three {
+    height: 40px;
+}
+
+.ls-tiaojian-three li {
+    display: inline-block;
+    width: 75px;
+    height: 30px;
+}
+
+.ls-tiaojian-three input {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+  .ls-datu {
+      width: 973px;
+      height: 50px;
+  }
+
+.ls-datu li {
+    float: left;
+    padding-right: 7px;
+    margin-top: 5px;
+    position: relative;
+    background: url(../images/ls-big01.jpg) no-repeat;
+    width: 235px;
+    height: 315px;
+}
+
+.ls-tu {
+    width: 380px;
+    height: 490px;
+    position: absolute;
+    top: -30px;
+    left: -20px;
+    background: #f5f7f6 url("../images/ls-big02.jpg") no-repeat 20px 30px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 10;
+}
+.ls-tu div {
+    width: 60px;
+    height: 80px;
+}
+.ls-tu img {
+    width: 60px;
+    height: 80px;
+}
+.ls-xiaotu1 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.ls-xiaotu2 {
+    position: absolute;
+    top: 105px;
+    right: 30px;
+}
+.ls-xiaotu3 {
+    position: absolute;
+    top: 190px;
+    right: 30px;
+}
+.ls-xiaotu4 {
+    position: absolute;
+    top: 275px;
+    right: 30px;
+}
+    .all {
+        width: 160px;
+        border: 1px solid #000;
+        color: #6f6f6f;
+    }
+
+.all span {
+    background: url(../images/ls-down.gif) no-repeat left center;
+    padding: 0 0 0 10px;
+}
+
+.all ul li ul {
+    padding: 0 0 0 20px;
+    display: none;
+}
+
+.all li {
+    line-height: 24px;
+}
+
+.all ul .current span {
+    background: url(../images/ls-up.gif) no-repeat left center;
+    padding: 0 0 0 10px;
+}
+
+.all ul .current ul {
+    display: block;
+}

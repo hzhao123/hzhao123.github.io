@@ -1,0 +1,118 @@
+
+.girls {
+    margin-top: 10px;
+}
+.girls-wq-left {
+    width: 280px;
+    margin-right:10px;
+}
+.girls-wq-left a {
+    width: 280px;
+    display: block;
+    margin-bottom:10px;
+}
+.girls-wq-middle {
+    position: relative;
+}
+.girls-wq-middle-pics {
+    width: 570px;
+    height: 510px;
+    overflow: hidden;
+    position: relative;
+}
+.girls-wq-middle-pics ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.girls-wq-middle-pics ul li  {
+    float:left;
+}
+.girls-wq-middle-icons {
+    width: 570px;
+    /*display: none;*/
+}
+.girls-wq-middle-icons ol {
+    position: absolute;
+    width: 230px;
+    height: 26px;
+    left: 50%;
+    margin-left: -115px;
+    bottom: 20px;
+    opacity: 0.5;
+    background: #000;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 20px;
+
+}
+.girls-wq-middle-icons ol li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 40%;
+    background: #464647;
+    margin: 8px 6px 0;
+    text-indent: -9999em;
+}
+.girls-wq-middle-icons .girls-wq-middle-alter {
+    background: #fff;
+}
+.wq-middle-icons-prev, .wq-middle-icons-next {
+    position: absolute;
+    top:43%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color:#7F7653;
+    background-color: #FAF1CE;
+    font-size:50px;
+    font-weight: 400;
+    font-family: "simsun";
+    display: none;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.wq-middle-icons-prev {
+    position: absolute;
+    left:0;
+}
+.wq-middle-icons-next {
+    position: absolute;
+    right:0;
+}
+.wq-middle-icons-dots {
+    height: 26px;
+    width: 230px;
+    background-color: #B3B3B3;
+    border-radius: 20px;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 12px;
+    left:50%;
+    margin-left:-110px;
+}
+.wq-middle-icons-dots .wq-dots-lis {
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    display: inline-block;
+    background-color: #E1E1E1;
+    margin:6px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+}
+.wq-middle-icons-dots .wq-dots-selected {
+    background-color: #fff;
+}
+.girls-wq-right {
+    width: 280px;
+    float: right;
+}
+.girls-wq-right a {
+    display: block;
+    margin-bottom: 10px;
+}
+

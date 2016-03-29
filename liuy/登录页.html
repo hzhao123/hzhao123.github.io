@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Yoho!登录页 by 刘逸</title>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        li {
+            list-style: none
+        }
+
+        a {
+            color: #FF1901;
+            text-decoration: none;
+        }
+
+        input {
+            outline-style: none;
+        }
+
+        .title {
+            height: 80px;
+            border-bottom: 3px solid black;
+        }
+
+        .title_in {
+            width: 1020px;
+            height: 80px;
+            margin: 0 auto;
+        }
+
+        .title span {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .title ul {
+            margin-top: 25px;
+            float: right;
+        }
+
+        .title ul li {
+            font: 14px/36px "microsoft yahei";
+            float: left;
+            margin-right: 20px;
+        }
+
+        .title ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .title ul li a:hover {
+            color: #FF1901;
+        }
+
+        .main {
+            margin: 0 auto;
+            width: 1020px;
+            height: 670px;
+            border-bottom: 1px solid black;
+        }
+
+        .main_left {
+            width: 510px;
+            height: 670px;
+            padding-top: 125px;
+            float: left;
+        }
+
+        .main_left_in {
+            height: 425px;
+            width: auto;
+            border-right: 1px solid #CCCCCC;
+        }
+
+        .main_left img {
+            margin: 100px 0 0 125px;
+        }
+
+        .ybb_login {
+            width: 275px;
+            height: 335px;
+            margin: 127px 0 0 127px;
+            float: left;
+        }
+
+        .login_title span {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .ybb_login input {
+            font: 14px/26px "microsoft yahei";
+            color: #c1c1c1;
+            height: 40px;
+            padding-left: 8px;
+            width: 263px;
+        }
+
+        .ybb_login li {
+            margin-bottom: 25px;
+        }
+
+        .login_country {
+            font: 14px/26px "microsoft yahei";
+            color: #c1c1c1;
+
+            float: right;
+        }
+
+        .ybb_login .login_button {
+            width: 100%;
+            color: white;
+            background-color: #FF1901;
+        }
+
+        .login_link {
+            font-size: 12px;
+            color: #c1c1c1;
+        }
+
+        .login_link span {
+            float: right;
+        }
+
+        .login_link input {
+            height: 14px;
+            width: 14px;
+            Vertical-align: middle;
+        }
+
+        .login_link_grey {
+            color: #c1c1c1;
+        }
+
+        .login_icon {
+            width: 1000px;
+        }
+
+        .login_icon li {
+            float: left;
+            margin-right: 19px;
+        }
+
+        .login_right1,
+        .login_wrong1 {
+            float: right;
+            margin-right: -42px;
+            margin-top: -33px;
+            width: 16px;
+            height: 16px;
+        }
+
+        .login_right2,
+        .login_wrong2 {
+            float: right;
+            margin-right: -42px;
+            margin-top: -29px;
+            width: 16px;
+            height: 16px;
+        }
+
+        .login_right1,
+        .login_right2 {
+            background: url("img/right.png") no-repeat;
+        }
+
+        .login_wrong1,
+        .login_wrong2 {
+            background: url("img/error.png") no-repeat;
+        }
+    </style>
+    <script src="../jquery-1.11.1.js"></script>
+    <script>
+        $(function () {
+            $(".login_input").on("focus", function () {
+                    $(this).val("");
+                    $(this).next().removeClass();
+            })
+            $(".login_mail").on("blur",function(){
+                if(/^[\w\-\.]+\@[\w]+\.[\w]{2,4}$/.test($(this).val())){
+                    $(this).next().addClass("login_right1");
+                }else if(/^((13[0-9])|(15[^4,\D])|(18[0-9]))\d{8}$/.test($(this).val())){
+                    $(this).next().addClass("login_right1");
+                }else {
+                    if($(this).val()!=""){
+                        $(this).next().addClass("login_wrong1");
+                    }
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="title">
+    <div class="title_in">
+        <span>
+            <img src="img/logo_e.png" alt=""/>
+        </span>
+        <ul>
+            <li>Hi~<a href="#">[请登录]</a><a href="#">[免费注册]</a></li>
+            <li><a href="#">MY有货▲</a></li>
+            <li><a href="#">订单中心</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li>☎ 400-889-9646</li>
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <div class="main_left">
+        <div class="main_left_in">
+            <a href="#"><img src="img/0242d57d0d5cc5ea550820e8029140bf08.jpg" alt=""/></a>
+        </div>
+    </div>
+    <ul class="ybb_login">
+        <li class="login_title">
+            <span>会员登录</span>
+            <select class="login_country">
+                <option>中国+86</option>
+                <option>澳大利亚+61</option>
+                <option>韩国+82</option>
+                <option>加拿大+1</option>
+                <option>马来西亚+60</option>
+                <option>美国+1</option>
+            </select>
+        </li>
+        <li>
+            <input type="text" placeholder="邮箱/手机号码" class="login_mail login_input"/>
+            <div></div>
+        </li>
+        <li>
+            <input type="password" placeholder="密码" class="login_input"/>
+            <div></div>
+        </li>
+        <li>
+            <input type="button" value="登录" class="login_button"/>
+        </li>
+        <li class="login_link">
+            <input type="checkbox"/>记住登录状态
+            <span><a href="#" class="login_link_grey">忘记密码?</a>|<a href="#">快速注册</a></span>
+        </li>
+        <ul class="login_icon">
+            <li><a href="#"><img src="img/douban.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/iconfont-weixin.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/qq.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/weibo.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/zhifubao.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/renren.png" alt=""/></a></li>
+        </ul>
+    </ul>
+</div>
+</body>
+</html>

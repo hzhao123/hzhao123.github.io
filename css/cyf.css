@@ -1,0 +1,191 @@
+/*S 轮播图大图*/
+.cyf_main {
+    margin-top: 10px;
+}
+.cyf_banner_top {
+    position: relative;
+    overflow: hidden;
+}
+
+.cyf_banner_top ul{
+    width: 800%;
+    position: relative;
+}
+
+.cyf_banner_top ul li{
+    float: left;
+}
+
+.cyf_banner_top span{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    font-size: 50px;
+    color: #000;
+    background: #fff;
+    opacity: 0.5;
+    line-height: 60px;
+    text-align: center;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.cyf_banner_top span:hover {
+    opacity: 0.9;
+}
+
+.cyf_banner_top .cyf_banner_left {
+    left: 0;
+}
+
+.cyf_banner_top .cyf_banner_right {
+    right: 0;
+}
+
+/*S 轮播图小图*/
+.cyf_banner_bottom {
+    margin-top: 6px;
+}
+
+.cyf_banner_bottom ol {
+    width: 101%;
+}
+
+.cyf_banner_bottom ol li {
+    float: left;
+    margin-right: 6px;
+    opacity: 0.5;
+}
+.cyf_banner_bottom .cyf_banner_bottom_alter {
+    opacity: 1;
+}
+
+/*S 展柜图内容*/
+.cyf_showcase {
+    margin-top: 20px;
+}
+.cyf_showcas_title {
+    padding-bottom:10px;
+    border-bottom: 3px solid #000;
+    font-size: 20px;
+    color: #000;
+    font-weight: 900;
+}
+.cyf_showcas_title .cyf_showcas_title_right {
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+.cyf_showcase_left {
+    width: 1035px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.cyf_showcase_left ul li {
+    float: left;
+}
+.cyf_showcase_roll {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cyf_showcase_two {
+
+}
+
+.cyf_showcase_right ol li:first-child {
+    width: 115px;
+    height: 90px;
+    background: url(../img/cyf_showcase_page.jpg) no-repeat;
+    position: relative;
+}
+.cyf_showcase_right ol li:first-child .cyf_showcase_right_one {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: 40px;
+    height: 50px;
+}
+.cyf_showcase_right ol li:first-child .cyf_showcase_right_two {
+    position: absolute;
+    bottom: 0;
+    right: 13px;
+    width: 40px;
+    height: 50px;
+}
+
+/*S 人气单品内容*/
+.cyf_hot {
+    margin-top: 20px;
+}
+.cyf_hot_left {
+    width: 960px;
+}
+.cyf_hot_left ul li {
+    float: left;
+    margin: 0 2px 2px 0;
+}
+
+/*潮流上衣内容*/
+.cyf_clothing {
+    margin-top: 20px;
+}
+.cyf_clothing_left {
+    width: 190px;
+    margin-right: 2px;
+}
+.cyf_clothing_right {
+    width: 958px;
+}
+.cyf_clothing_right ul {
+    width: 965px;
+}
+.cyf_clothing_right ul li {
+    float: left;
+    margin: 0 2px 2px 0;
+}
+.cyf_clothing_sort {
+    padding: 8px 0;
+    background: #f8f8f8;
+}
+.cyf_clothing_sort li {
+    width: 50%;
+    float: left;
+}
+.cyf_clothing_sort li a {
+    width: 100%;
+    height: 28px;
+    display: block;
+    padding-left: 12px;
+    line-height: 28px;
+}
+.cyf_clothing_brand {
+    padding: 8px 0;
+    background: #f2f2f2;
+}
+.cyf_clothing_brand li {
+    width: 100%;
+    line-height: 28px;
+}
+.cyf_clothing_brand li a {
+    width: 100%;
+    height: 28px;
+    padding-left: 12px;
+    display: block;
+}
+.cyf_clothing_brand li a:hover {
+    text-decoration: underline;
+}
+.cyf_clothing_sort .hot {
+    width: 25px;
+    height: 14px;
+    line-height: 14px;
+    display: inline-block;
+    text-align: center;
+    background: red;
+    font-size: 10px;
+    color: #fff;
+    margin-left: 5px;
+}

@@ -1,0 +1,539 @@
+*{margin: 0;padding: 0}
+li {list-style: none}
+a {color: #FF1901;}
+input{outline-style: none;}
+/*.main input {*/
+    /*border: 1px solid #c1c1c1;*/
+/*}*/
+.title {
+    height: 80px;
+    border-bottom: 3px solid black;
+}
+.title_in {
+    width: 1020px;
+    height: 80px;
+    margin: 0 auto;
+}
+.title span {
+    display: inline-block;
+    margin:20px;
+}
+.title ul {
+    margin-top: 25px;
+    float: right;
+}
+.title ul li {
+    font: 14px/36px "microsoft yahei";
+    float: left;
+    margin-right: 20px;
+}
+.title ul li a {
+    color: black;
+    text-decoration: none;
+}
+.title ul li a:hover {
+    color: #FF1901;
+}
+.main {
+    margin: 0 auto;
+    width: 1020px;
+    height: 670px;
+    border-bottom: 1px solid black;
+}
+.main_left {
+    width: 510px;
+    height: 670px;
+    padding-top: 125px;
+    float: left;
+}
+.main_left_in {
+    height: 425px;
+    width:auto;
+    border-right: 1px solid #CCCCCC;
+}
+.main_left img {
+    margin: 100px 0 0 125px;
+}
+.regist {
+    width: 435px;
+    height: 500px;
+    margin-top: 127px;
+    float: right;
+}
+.regist input{
+    font: 14px/26px "microsoft yahei";
+    color: #c1c1c1;
+    height:40px;
+    padding-left: 8px;
+}
+.regist li {
+    margin-top: 25px;
+}
+.regist_country {
+    font-size: 16px;
+    width: 120px;
+    color: #c1c1c1;
+    display:block;
+}
+.tel_area {
+    width: 40px;
+}
+.tel_num {
+    width: 210px;
+    margin-left: -10px;
+}
+.regist_testcode {
+    width: 330px;
+    background: url("img/textcode.png") no-repeat 195px;
+}
+.regist_testcode a {
+    font-size: 14px;
+    margin-left: 110px;
+    color: #FF1901;
+}
+.regist li .regist_massage{
+    height: 45px;
+    width: 100px;
+    font-size: 12px;
+    color: white;
+    background-color: #555555;
+}
+.regist_password input {
+    width: 262px;
+    margin-bottom: 0px;
+    display: block;
+}
+.regist_level {
+    margin-left: 153px;
+    margin-top: 5px;
+}
+.regist_password span {
+    width: 30px;
+    height: 15px;
+    background-color: #E8E8E8;
+    font: 12px/15px "microsoft yahei";
+    text-align: center;
+    margin-left: 10px;
+    color: #c1c1c1;
+    float: left;
+}
+.regist_already,.regist_article {
+    display: inline-block;
+    margin-left: 47px;
+    font-size: 12px;
+    color: #c1c1c1;
+}
+.regist_article input {
+    height: 14px;
+    Vertical-align:middle;
+}
+.regist .regist_now {
+    height: 40px;
+    width: 275px;
+    font-size: 16px;
+    background-color: #555555;
+    color: white;
+}
+.regist_already {
+    margin-left: 96px;
+}
+.regist_already a {
+    text-decoration: none;
+}
+.regist_right1,
+.regist_wrong1 {
+    float: right;
+    margin-right: 87px;
+    margin-top: 14px;
+    width: 16px;
+    height: 16px;
+}
+.regist_right2,
+.regist_wrong2 {
+    float: right;
+    margin-right: -19px;
+    margin-top: -29px;
+    width: 16px;
+    height: 16px;
+}
+.regist_right3,
+.regist_wrong3 {
+    float: right;
+    margin-right: 86px;
+    margin-top: -29px;
+    width: 16px;
+    height: 16px;
+}
+.regist_right1,
+.regist_right2,
+.regist_right3 {
+    background:url("img/right.png") no-repeat;
+}
+.regist_wrong1,
+.regist_wrong2,
+.regist_wrong3 {
+    background:url("img/error.png") no-repeat;
+}
+.regist_level .regist_danger1 {
+    background-color: red;
+    color: white;
+}
+.regist_level .regist_danger2 {
+    background-color: yellow;
+    color: white;
+}
+.regist_level .regist_danger3 {
+    background-color: green;
+    color: white;
+}
+
+/*tb-advertisement部分start*/
+.tb-ad {
+    background-color: #FFFFFF;
+}
+.tb-ad-1 {
+    margin: 20px 0;
+}
+.tb-ad-2 {
+    margin-bottom: 15px;
+}
+/*tb-advertisement部分end*/
+
+/*tb-service部分start*/
+.tb-service {
+    height: 285px;
+    background-color: #EEEEEE;
+    padding-bottom: 9px;
+}
+.tb-service-con {
+    padding-top: 20px;
+    height: 285px;
+}
+.tb-service-con-ser,
+.tb-service-con-advice,
+.tb-service-con-more {
+    float: left;
+}
+.tb-service-con-ser-top,
+.tb-service-con-advice-top,
+.tb-service-con-more-top {
+    height: 207px;
+    width: 370px;
+    background-color: #fff;
+    position: relative;
+}
+.tb-service-con-ser-bottom,
+.tb-service-con-advice-bottom,
+.tb-service-con-more-bottom {
+    height: 57px;
+    width: 370px;
+    background-color: #EEEEEE;
+    text-align: center;
+    line-height: 57px;
+}
+.tb-service-con-advice {
+    margin: 0 20px;
+}
+.tb-text-line {
+    width: 330px;
+    height: 1px;
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+.tb-service-txt {
+    width: 330px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.tb-service-txt span {
+    display: inline-block;
+    width: 146px;
+    height: 21px;
+    font-size: 18px;
+    font-family: arial,"Microsoft YaHei";
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.tb-service-txt span.advice {
+    width: 96px;
+    position: absolute;
+    left: 122px;
+    top: 0;
+}
+.tb-service-txt span.more {
+    width: 155px;
+    position: absolute;
+    left: 85px;
+    top: 0;
+}
+
+/*tb-service部分 左 start*/
+.tb-service-erweima {
+    height: 130px;
+    width: 330px;
+    position: absolute;
+    top: 58px;
+    left: 20px;
+}
+.tb-service-erweima .tb-erweima {
+    width: 100px;
+    height: 130px;
+    float: left;
+    border: 1px solid #DDDDDD;
+}
+.tb-service-erweima .tb-erweima-mid {
+    margin: 0 12px;
+}
+.tb-service-erweima div a {
+    display: inline-block;
+    margin: 7px;
+}
+.tb-service-erweima div div {
+    width: 100px;
+    height: 10px;
+    text-align: center;
+    margin-top: 3px
+}
+.tb-service-con-ser-bottom div {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/*tb-service部分 左 end*/
+
+/*tb-service部分 中 start*/
+.tb-service-con-advice-top {
+    overflow: hidden;
+}
+.tb-service-con-advice ul {
+    width: 330px;
+    margin: 0 auto;
+    padding-top: 64px;
+    position: absolute;
+    top:0;
+    left: 25px;
+}
+.tb-service-con-advice ul div {
+    margin-top: -5px;
+    padding-bottom: 7px;
+}
+.tb-service-con-advice ul li {
+    margin-bottom: 78px;
+}
+.tb-service-con-advice ul li div{
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #000;
+    margin-bottom: 5px;
+}
+.tb-service-con-advice form p {
+    display: inline-block;
+    width: 165px;
+    height: 24px;
+    float: left;
+}
+.tb-service-con-advice form .tb-lastP {
+    width: 330px;
+    height: 24px;
+}
+.tb-service-con-advice form  {
+    color: black;
+}
+.tb-service-con-advice form .tb-submit {
+    width: 50px;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 5px;
+}
+.tb-service-con-advice form textarea {
+    height: 60px;
+    width: 295px;
+    margin: 3px 0;
+}
+.tb-mid-bottom .tb-mid-botton-dian {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+/*tb-service部分 中 end*/
+
+/*tb-service部分 右 start*/
+.tb-service-con-more .tb-more-mid {
+    margin: 0 7px;
+}
+/*tb-service部分 右 end*/
+
+/*tb-service部分end*/
+
+
+
+/*tb-bottom部分start*/
+
+/*tb-bottom部分 top start*/
+.tb-bottom {
+    height: 295px;
+    background-color: #000000;
+    position: relative;
+}
+.tb-bottom-top {
+    height: 64px;
+    border-bottom: 1px solid #262626;
+}
+.tb-zheng,
+.tb-car,
+.tb-tel {
+    height: 20px;
+    line-height: 69px;
+    float: left;
+    margin-right: 60px;
+}
+.tb-zheng img,
+.tb-car img,
+.tb-tel img {
+    width: 21px;
+    margin-right: 10px;
+}
+.tb-bottom .tb-colorRed {
+    color: #EE0011;
+    font-size: 12px;
+    font-weight: 600;
+}
+.tb-bottom .tb-bigFont {
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.tb-bottom .tb-smallFont {
+    color: #999999;
+    font-weight: 600;
+}
+.tb-mail {
+    float: right;
+    position: relative;
+}
+.tb-mail input {
+    width: 230px;
+    height: 32px;
+    margin-top: 18px;
+    background-color: #000000;
+    color: #666666;
+    border: 1px solid #262626;
+    padding-left: 10px;
+
+}
+.tb-mail img {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+/*tb-bottom部分 top end*/
+
+/*tb-bottom部分 mid start*/
+.tb-bottom-mid dl {
+    float: left;
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: arial, "Microsoft YaHei";
+}
+.tb-bottom-mid dl dt {
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 164px;
+}
+.tb-bottom-mid dl dd {
+    color: #666666;
+    width: 179px;
+    margin: 7px 0;
+    font-size: 12px;
+}
+.tb-bottom-mid dl dd a:hover {
+    text-decoration: underline;
+}
+.tb-bottom-mid .tb-lastDl {
+    width: 74px;
+    float: right;
+}
+.tb-bottom-mid .tb-lastDt {
+    width: 74px;
+}
+.tb-bottom-mid .tb-lastDd {
+    width: 74px;
+}
+/*tb-bottom部分 mid end*/
+
+/*tb-bottom部分 bottom start*/
+.tb-bottom-bottom {
+    position: relative;
+}
+.tb-bottom-pic,
+.tb-bottom-content {
+    float: left;
+    margin-right: 20px;
+}
+.tb-bottom-pic {
+    line-height: 74px;
+}
+.tb-bottom-pic img {
+    margin-right: 5px;
+}
+.tb-bottom-content {
+    height: 183px;
+    line-height: 55px;
+}
+.tb-bottom-content-top {
+    height: 22px;
+}
+.tb-bottom-content span {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    line-height: 12px;
+}
+.tb-bottom-content a {
+    margin: 0 10px;
+}
+/*tb-bottom部分 bottom end*/
+
+/*tb-bottom 小箭头arrow部分  start*/
+.tb-arrow {
+    position: fixed;
+    right: 10px;
+    bottom: 120px;
+    width: 60px;
+    height: 60px;
+    background-color: #000000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.tb-showArrow {
+    background-color: #000000;
+    opacity: 0.5;
+    color: #fff;
+    font-weight: 900;
+    width: 33px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 14px;
+}
+/*tb-bottom 小箭头arrow部分  end*/
+/*tb-bottom部分end*/
